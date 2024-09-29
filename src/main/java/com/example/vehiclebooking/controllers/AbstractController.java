@@ -42,7 +42,7 @@ public abstract class AbstractController {
 
     @ResponseBody
     @ExceptionHandler(value = BookingException.class)
-    protected ResponseEntity<ResponseObject> handleFinePayException(BookingException exception) {
+    protected ResponseEntity<ResponseObject> handleBookingException(BookingException exception) {
         log.error("Exception occurred", exception);
         Map<String, Object> errorData = new HashMap<>();
         errorData.put("message", exception.getMessage());
