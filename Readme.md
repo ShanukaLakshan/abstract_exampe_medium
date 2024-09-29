@@ -2,6 +2,8 @@
 
 A simple vehicle booking system built with Spring Boot, utilizing Lombok for boilerplate code reduction. This application allows users to book vehicles, view their booking history, and cancel bookings.
 
+![Vehicle Booking System Screenshot](./sample.png)
+
 ## Features
 
 - **Book a Vehicle**: Users can book a vehicle by providing their user ID and vehicle ID.
